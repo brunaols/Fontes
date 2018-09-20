@@ -1,0 +1,58 @@
+body {
+    font-family: Times, serif;
+    font-size: 16px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(255, 13, 79);
+}
+
+h2 {
+    color: blue;
+    border: 1px solid blue;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+.atencao {
+    color: red;
+}
+
+.container {
+    border: 1px solid green;
+    width: 900px;
+    margin: 5px auto;
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
